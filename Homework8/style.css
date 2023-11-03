@@ -1,0 +1,972 @@
+/* описание тела */
+body {
+    font-family: sans-serif;
+    max-width:1366px;
+    min-width:300px;
+    /* height: 760px; */
+    margin: 0 auto;
+    padding: 0;
+}
+/* ------------------------------------------------------ */
+
+
+/* описание страниц */
+
+div.theAll {    
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+div.container {    
+    width: auto;
+    margin: 0 32px auto;
+    padding: 0;
+}
+
+
+
+div.workPage {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+	flex-grow: 1;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+
+/* ------------------------------------------------------ */
+
+
+/* верхнее меню */
+div.menuArea {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+        div.menuHome {
+            margin: 42% 8%;
+        }
+
+        div.menuContacts {
+            margin: 39% 8%;
+        }
+/* ------------------------------------------------------ */
+
+/* зона tool for you - две колонки */
+
+
+   @media (min-width: 1024px) {
+        div.container2 {
+            padding: 0 32px;
+            border: 3px solid red;
+        }
+       .screen__text1 {
+            font-size: 32px;
+            line-height: 46px;
+            text-align: right;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            position: absolute;
+            top: 64px;
+            right: 64px;
+        }
+       .screen__text2 {
+            font-size: 32px;
+            line-height: 46px;
+            text-align: right;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            position: absolute;
+            top: 16px;
+            left: 64px;
+        }
+
+        div.toolForYou {
+            width: 100%;
+            height: auto;
+            margin-left: 8%;
+            padding: 3px;
+            background-image: url(img/pictureSite.svg);
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: 44%
+        }
+
+        h1.toolForYou_header {
+            margin-top: 25%;
+            max-width: 504px;
+            min-width: 300px;
+            height: auto;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 64px;
+            line-height: 74px;
+            letter-spacing: 0.04em;
+            color: #1F3F68;
+        }
+        div.allRighreserved {
+            height: 130px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            opacity: 0.4;
+            padding-left: 124px;
+        }  
+        div.footer {
+            max-width: 30%;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            flex-grow: 1;
+        }
+        div.workPageFooter {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            display:flex;
+            margin: 70px 124px;
+        }  
+        p.toolForYou_text {
+            margin-top: 10%;
+            max-width: 425px;
+            min-width: 250px;
+            height: auto;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.05em;
+            color: #1F3F68;
+            opacity: 0.6; 
+        }
+        button.toolForYou_text {
+            margin-top: 71px;
+            width: 220px;
+            height: 56px;
+            background: #5A98D0;
+            box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+            border-radius: 10px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: #FFFFFF;
+        }   
+            .toolImage  {
+                background-image: url(img/pictureSite.svg);
+                background-repeat: no-repeat;
+                background-position: right center;
+                background-size: 44%
+            } 
+        h2.weHelp_header {
+            max-width: 100%;
+            min-width: 340px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 36px;
+            line-height: 46px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            color: #000000;
+            margin: 5% 0;
+        }     
+            div.what-we-do {
+                width: 100%;
+                margin: 30px auto;    
+                /* padding: 0 30px; */
+                display:flex;
+                justify-content:space-between;
+                align-items:stretch;
+            }
+        div.workPage2 {
+            width: 100%;
+            height: auto;
+            display:flex;
+            justify-content:space-between;
+            align-items:stretch;
+            margin: 0;
+            margin-top: 32px;
+        }
+        div.workPage3 {
+            /* width: 50%;
+            height: auto;
+            padding: 0;
+            margin: 0; */
+            position: relative;
+            flex-grow: 1;
+            margin-right: 32px;
+        }
+        
+        div.workPage4 {
+            /* width: 50%;
+            height: auto;
+            padding: 0;
+            margin: 0;
+            margin-left: 50px; */
+            position: relative;
+            flex-grow: 1;
+        }
+
+        img.bottom1 {
+            width: 100%
+        }
+        img.bottom2 {
+            width: 100%
+                /* margin-right: 50px;
+                padding-right: 50px; */
+        }    
+        
+        h1.contactUsText {
+            font-size: 64px;
+            color: #1F3F68;
+            width: 510px;
+        }
+
+        p.contactUsText {
+            width: 425px;
+        }
+        div.blockAddress {
+            width: 359px;
+        }
+
+        div.colon {
+            min-width: 520px;
+            width: auto;
+            margin: 30px auto;
+            padding: 10px; 
+            display:block;
+            flex-direction:column;
+        }
+
+        .entryFieldSendUsMessage {
+            border: 1px solid #356EAD;
+            box-sizing: border-box;
+            border-radius: 10px;
+            opacity: 0.4;
+        }
+        
+        div.mapArea {
+            width: 100%;
+            height: auto;
+            margin: 55px 0;
+            padding: 50px 0;
+        }
+   }
+    @media (min-width: 360px) and (max-width: 1023px) {
+        div.toolForYou {
+            background-image: none;
+            text-align: center;
+        }
+
+       .screen__text1 {
+            font-size: 32px;
+            line-height: 46px;
+            text-align: right;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            position: absolute;
+            top: 64px;
+            right: 64px;
+        }
+       .screen__text2 {
+            font-size: 32px;
+            line-height: 46px;
+            text-align: right;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            position: absolute;
+            top: 16px;
+            left: 64px;
+        }
+    h1.toolForYou_header {
+            margin-top: 25%;
+            max-width: 504px;
+            min-width: 300px;
+            height: auto;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 64px;
+            line-height: 74px;
+            letter-spacing: 0.04em;
+            color: #1F3F68;
+        }
+        div.allRighreserved {
+            height: 130px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            opacity: 0.4;
+            padding-left: 124px;
+        }  
+        div.footer {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            margin: 30px 0;
+       }
+        div.workPageFooter {
+            width: 70%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            margin: 70px 124px;
+        }   
+        p.toolForYou_text {
+            margin-top: 10%;
+            max-width: 425px;
+            min-width: 250px;
+            height: auto;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.05em;
+            color: #1F3F68;
+            opacity: 0.6; 
+        }
+        button.toolForYou_text {
+            margin-top: 71px;
+            width: 220px;
+            height: 56px;
+            background: #5A98D0;
+            box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+            border-radius: 10px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: #FFFFFF;
+        }   
+            .toolImage  {
+                width: 50%;
+                height: auto;
+                margin-right: 8%;
+                padding: 5% 2% 3% 3%;
+            }  
+        h2.weHelp_header {
+            max-width: 100%;
+            min-width: 340px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 36px;
+            line-height: 46px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            color: #000000;
+            margin: 5% 0;
+        }         
+            div.what-we-do {
+                width: 100%;
+                margin: 30px auto;    
+                padding: 0 30px;
+                align-items:stretch;
+            }  
+        div.workPage2 {
+            width: 100%;
+            height: auto;
+            padding: 0;
+            /* display:flex;
+            justify-content:space-between; */
+            align-items:stretch;
+            margin-top: 32px;
+            flex-direction: column;
+            /* margin: 23px 0 32px 0; */
+            /* flex-direction: column; */
+
+        }
+        div.workPage3 {
+            /* width: 25%;
+            height: auto;
+            padding: 0;
+            margin: 0; */
+            position: relative;
+            flex-grow: 1;
+        }
+        
+        div.workPage4 {
+            /* width: 25%;
+            height: auto;
+            padding: 0;
+            margin: 0; */
+            position: relative;
+            flex-grow: 1;
+        }
+
+        img.bottom1 {
+            width: 100%
+        }
+        img.bottom2 {
+            width: 100%
+                /* margin-right: 50px;
+                padding-right: 50px; */
+        }     
+        
+        h1.contactUsText {
+            font-size: 32px;
+            color: #1F3F68;
+            width: 300px;
+        }
+
+        p.contactUsText {
+            width: 300px;
+        } 
+        div.blockAddress {
+            width: 259px;
+            text-align: center;
+        } 
+
+        div.colon {
+            min-width: 320px;
+            width: auto;
+            margin: 30px auto;
+            padding: 10px; 
+            display:block;
+            flex-direction:column;
+        }  
+        
+        .entryFieldSendUsMessage {
+            border: 1px solid #356EAD;
+            box-sizing: border-box;
+            border-radius: 10px;
+            opacity: 0.4;
+            font-size: 24px;
+            max-width: 660px;
+        } 
+        
+        div.mapArea {
+            width: 100%;
+            max-width: 660px;
+            height: auto;
+            margin: 55px 0;
+            padding: 50px 0;
+        }                                           
+  }
+   @media (max-width: 660px){
+        div.toolForYou {
+            background-image: none;
+        }
+        
+        h2.workPage {
+            font-size: 24px;
+            line-height: 28px;
+        }
+       .screen__text1 {
+            font-size: 16px;
+            line-height: 16px;
+            text-align: right;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            position: absolute;
+            top: 64px;
+            right: 64px;
+        }
+        .screen__text2 {
+            font-size: 16px;
+            line-height: 16px;
+            text-align: left;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            position: absolute;
+            top:32px;
+            left: 32px;
+        }
+        h1.toolForYou_header {
+            margin-top: 10%;
+            max-width: 100%;
+            min-width: 30px;
+            height: auto;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 32px;
+            line-height: 37px;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: #1F3F68;
+        }
+        div.what-we-do {
+            width: 100%;
+            margin: 30px auto;    
+            padding: 0 30px;
+            align-items:stretch;
+        }
+        div.allRighreserved {
+            height: 130px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            opacity: 0.4;
+            padding-left: 124px;
+            text-align: center;
+        }  
+        div.footer {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            margin: 10px 0;
+       }
+        div.workPageFooter {
+            width: 70%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            margin: 70px 30px;
+        }  
+        div.workPage2 {
+            /* width: 100%;
+            height: auto;
+            padding: 0; */
+            flex-direction: column;
+        }
+        
+        div.workPage3 {
+            /* width: 100%;
+            height: auto;
+            padding: 0;
+            margin: 0; */
+            position: relative;
+            flex-grow: 1;
+            margin-right: 0;
+            margin-bottom: 16px;
+        }
+        
+        div.workPage4 {
+            /* width: 100%;
+            height: auto;
+            padding: 0;
+            margin: 0; */
+            /* margin-left: 50px; */
+            position: relative;
+            flex-grow: 1;
+        }
+
+        img.bottom1 {
+            width: 100%
+        }
+        img.bottom2 {
+            width: 100%
+             /* margin: 23px 0; */
+       } 
+        p.toolForYou_text {
+            margin-top: 10%;
+            min-width: 30px;
+            height: auto;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.05em;
+            color: #1F3F68;
+            text-align: center;
+            opacity: 0.6; 
+        }   
+        button.toolForYou_text {
+            margin-top: 31px;
+            width: 108px;
+            height: 27px;
+            background: #5A98D0;
+            box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+            border-radius: 10px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 26px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+            .toolImage  {
+                width: 50%;
+                height: auto;
+                margin-right: 8%;
+                padding: 5% 2% 3% 3%;
+            } 
+        h2.weHelp_header {
+            max-width: 100%;
+            min-width: 340px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: #000000;
+        }            
+        h1.contactUsText {
+            font-size: 32px;
+            color: #1F3F68;
+            width: 300px;
+        }
+
+        p.contactUsText {
+            width: 300px;
+        }       
+
+        div.blockAddress {
+            font-size: 16px;
+            width: 259px;
+            text-align: center;
+        }    
+
+        div.colon {
+            min-width: 20px;
+            width: auto;
+            margin: 30px auto;
+            padding: 10px; 
+            display:block;
+            flex-direction:column;
+            font-size: 8px;
+        }   
+        
+        .entryFieldSendUsMessage {
+            border: 1px solid #356EAD;
+            box-sizing: border-box;
+            border-radius: 10px;
+            opacity: 0.4;
+            font-size: 24px;
+            max-width: 300px;
+        }   
+        
+        div.mapArea {
+            width: 100%;
+            max-width: 360px;
+            height: auto;
+            margin: 55px 0;
+            padding: 50px 0;
+        }                                     
+   }
+
+
+
+
+
+/* ------------------------------------------------------ */
+
+/* зона с 3мя колонками */
+
+
+
+
+        div.smallWindowArea {
+            width: auto;
+            min-height: 445px;
+            margin: 14px;
+            padding: 1%; 
+        }
+
+        h3.weHelp {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.05em;
+            color: #1F3F68;
+            margin-top: 14px;
+        }
+
+        div.weHelp_pickture1 {
+            width: 100%;
+            height: auto;
+            display: flex;  
+            justify-content: center;
+       }
+        div.weHelp_pickture2 {
+            width: 180px;
+            height: 130px;
+            display: flex;  
+            position:relative;
+        }       
+        img.weHelp {
+            position: absolute;
+            top:0;
+        }
+        img.weHelp2-2 {
+            position: absolute;
+            top:0;
+            left: 25px;
+        }
+        img.weHelp2-1 {
+            position: absolute;
+            top:-40px;
+            left: -28px;
+        }
+        p.weHelp {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.05em;
+            color: #1F3F68;
+            opacity: 0.6;
+            margin-top: 14px;
+        }
+
+        a.weHelp {
+        width: 78px;
+        height: 27px;
+        left: 32px;
+        bottom: 44px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #5A98D0;
+        margin-top: 29px;
+        }
+
+/* ------------------------------------------------------ */
+
+/* зона Our Finished Project */
+
+h2.workPage {
+    max-width: 100%;
+    min-width: 340px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;   
+    /* margin-top: 63px;  */
+}
+
+p.workPage {
+    max-width: 100%;
+    min-width: 340px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-top: 32px;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+img.workPage_Rectangle {
+    /* margin: 64px 50px 0; */
+    width: 100%;
+    height: auto;
+}
+
+
+/* ------------------------------------------------------ */
+
+/* страница контактов, поле ContactUs и две колонки */
+div.contactUs {
+    width: 100%;
+    height: 250px;
+    margin: 25px 0;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+}
+
+div.center {
+    text-align: center;
+}
+/* ------------------------------------------------------ */
+
+
+
+/* зона карты */
+
+blockquote.map {
+    font-style: italic;
+    font-weight: bold; 
+    word-spacing: 2em; 
+    line-height: 30px; 
+    color: #2d70c7;
+}
+
+/* ------------------------------------------------------ */
+
+
+/* подвал */
+footer {
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+    padding: 0;
+    background: #316099;
+    /* align-items:center; */
+}
+
+h2.headFooter {
+    width: 40%;
+    left: 124px;
+    top: 3510px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em; 
+    color: #FFFFFF;  
+    padding-top: 47px; 
+    margin-left: 124px;
+}
+div.what-we-do_footer {
+    width: 100%;
+    margin-left: 124px;
+    margin-bottom: 64px;
+    margin-top: 32px;
+    padding: 0;
+    display:flex;
+    justify-content:flex-start;
+    position: relative;
+
+}
+p.Footer {
+    width: 30%;
+    /* height: 96px; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+button.Footer {
+    width: 133.04px;
+    height: 31.48px;
+    position:absolute ;
+    right: 100px;
+    background: #5A98D0;
+    margin-left: 51px;
+}
+
+h3.footerTop {
+    width: 340px;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+
+div.footerTop {
+    width: 495px;
+}
+
+div.footerBottom ul.footerBottom {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+/* ------------------------------------------------------ */
+
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+h1 {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 44px;
+}
+
+h3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+    padding: 0 10px;
+}
+
+
+button.buttonSend {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+img.myImg {
+    min-width: 50px;
+    max-width: 350px;
+}
+
+.iframe {
+    width: 100%;
+    height: 700px;
+}
+
